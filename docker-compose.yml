@@ -1,0 +1,12 @@
+#version: "3"
+#services:
+#  db:
+#  RequirementsLookup:
+#    image: requirements_lookup
+#    depends_on: db
+#    ports:
+#    - "8020:8020"
+#  RequirementsLookup_fe:
+#    image: requirements_lookup_fe
+#    ports:
+#    - "8010:8010"
